@@ -289,4 +289,4 @@ with gr.Blocks(css=CSS, theme="Nymbo/Nymbo_Theme") as demo:
     gr.HTML(FOOTER_TEXT)
 
 if __name__ == "__main__":
-    demo.launch()
+    demo.launch(server_name="0.0.0.0", server_port=7860)
